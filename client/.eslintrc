@@ -1,0 +1,29 @@
+{
+  "env": {
+    "browser": true
+  },
+  //"extends": ["react-app","prettier"],
+  "extends": [
+    "eslint:recommended",
+    "prettier",
+    "airbnb"
+  ],
+  "plugins": [
+    "prettier",
+    "react"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "prettier/prettier": [
+      "error"
+    ]
+  }
+}

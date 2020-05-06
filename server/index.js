@@ -38,5 +38,4 @@ const server = new GraphQLServer({
   typeDefs,
   resolvers,
 });
-
 server.start(() => console.log(`http://localhost:4000에서 서버 가동중`));
